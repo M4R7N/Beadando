@@ -1,0 +1,21 @@
+span {
+	cursor: pointer;
+	padding: 10px;
+	background-color: red;
+	color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+body {
+	margin: 0;
+	overflow: hidden;
+}
+#game {
+	/*background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, indigo, violet, red, orange, yellow, green, cyan, blue, indigo, violet, red);*/
+	width: 200vw;
+	height: 100vh;
+	position: absolute;
+	left: 0vw;
+}
